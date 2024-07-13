@@ -36,3 +36,13 @@ The current commands (examples of) are:<br>
 They can all be called mid-operation, but then you dont need a `!` in front.<br>
 You can use them like ```(id + $var)``` too.<br>
 
+## Movement
+To move sprites you can use the commands:
+```move.X/Y=speed```, ```move.F=speed```, ```goto.X/Y=coordinate```, <br>
+```turn.r/l=degrees```, ```dir.casual=direction``` <br>
+To understand the syntax you need to understand the intention behind <br>
+every name. The F in ```move.F=speed``` indicates it is to move forward, <br>
+r/l in ```turn.r/l=degrees``` is for right or left. The casual in ```dir.casual=direction``` <br>
+means it is a casual shift in direction to a certain amount of degrees. <br>
+These can of course be used together with inputs, like for example:
+```goto.X=(pipe1 \- 90)``` > Used in my flappy bird clone
