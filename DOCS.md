@@ -47,5 +47,5 @@ means it is a casual shift in direction to a certain amount of degrees. <br>
 These can of course be used together with inputs, like for example: <br>
 <br>
 ```goto.X=(pipe1 \- 90)``` <br>
-> Used in my flappy bird clone
+> Used in my flappy bird clone <br>
 The directions are using the traditional rose compass <br>
