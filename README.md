@@ -1,7 +1,7 @@
-# power-engine
+# Power-Engine
 A not so powerful engine that allows easy multiplayer (soon)
 
-## HOW IT WORKS
+## How it works
 Power engine uses a sprite-based system, where you can add
 attributes and change the possition of an individual sprite.
 ### Sprites
