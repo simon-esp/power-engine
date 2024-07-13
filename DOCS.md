@@ -28,10 +28,11 @@ They should all be self-explanitory.<br>
 The \ is there so the program knows how many operations there actually is.<br>
 ```\rand``` is used to generate a random number from the first number to the last number.<br>
 ```1 \rand 10``` outputs a random integer between 1 and 10.<br>
-### Single Inputs
+#### Single Inputs
 Single inputs are inputs that takes only 1 statement in, and gives 1 statement out.<br>
 To call them, use `!` instead of paranthethes.<br>
 The current commands (examples of) are:<br>
 ```$variable```, ```id```, ```xof:spritename```, ```yof:spritename```<br>
 They can all be called mid-operation, but then you dont need a `!` in front.<br>
 You can use them like ```(id + $var)``` too.<br>
+
