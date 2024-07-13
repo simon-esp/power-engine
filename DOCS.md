@@ -45,5 +45,8 @@ every name. The F in ```move.F=speed``` indicates it is to move forward, <br>
 r/l in ```turn.r/l=degrees``` is for right or left. The casual in ```dir.casual=direction``` <br>
 means it is a casual shift in direction to a certain amount of degrees. <br>
 These can of course be used together with inputs, like for example: <br>
+<br>
 ```goto.X=(pipe1 \- 90)``` <br>
 > Used in my flappy bird clone
+<br>
+The directions are using the traditional rose compass <br>
