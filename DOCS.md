@@ -50,3 +50,23 @@ These can of course be used together with inputs, like for example: <br>
 > Used in my flappy bird clone
 <br>
 The directions are using the traditional rose compass <br>
+
+## Conditions
+Conditions are the building blocks of any game, and be warned, these conditions <br>
+are HARD to use. It is similar to the inputs system, whereas its <br>
+not "like" any other conditions system. It uses `\` like the inputs. <br>
+Commands are: <br>
+```# \= #```, ```# \< #```, ```# \> #```, ```\key #```, ```\col sprite```, <br>
+```\or```, ```\and```, ```\not``` <br>
+The program cycles through all of the statements, it always starts with AND, but <br>
+when you put a ```\or```, it will set the next operator to OR. It works like this: <br>
+```4 \= 5 \or 2 \> 1 \and 5 \< 6``` is the condition, <br>
+```4 \= 5``` is the first thing to check, the default is true when using conditions, <br>
+and it also defaults to AND, so this will be a False. <br>
+```\or``` is the next, it will switch it from AND, to OR. <br>
+```2 \> 1```, this is a true statement. The current state is False, <br>
+but since we switched to OR, it will be a `False OR True` here. <br>
+```\and``` turns it back to AND <br>
+```5 \< 6``` is the last one, since 5 is less than 6, and the operator is AND, <br>
+we can be assured that this is a True. <br>
+This is probably the best explanation i have. <br>
